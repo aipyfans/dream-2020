@@ -167,7 +167,7 @@
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >生活</h2></a>
             </div>
             <!-- Post -->
-            <div class="typo" style="padding: 1rem;">
+            <div class="typo" style="padding: 3rem;">
                 <p>当你踏遍绵延的山峦，感觉大地匍匐在你脚下，当你趟过川流的江河，感觉江河湖海就在你心中。当你远离城市的纷纷扰扰，远离城市的尔虞我诈，是否感觉新鲜的空气和自由在向你招手呢</p>
 <p><img src="https://cdn.pixabay.com/photo/2019/06/16/20/50/windmills-4278679_1280.jpg" alt=""></p>
 
@@ -189,6 +189,40 @@
         </div>
     </div>
 </body>
+
+<script>
+    $(function(){
+        var MobileUA = (function() {
+            var ua = navigator.userAgent.toLowerCase();
+
+            var mua = {
+                IOS: /ipod|iphone|ipad/.test(ua), //iOS
+                IPHONE: /iphone/.test(ua), //iPhone
+                IPAD: /ipad/.test(ua), //iPad
+                ANDROID: /android/.test(ua), //Android Device
+                WINDOWS: /windows/.test(ua), //Windows Device
+                TOUCH_DEVICE: ('ontouchstart' in window) || /touch/.test(ua), //Touch Device
+                MOBILE: /mobile/.test(ua), //Mobile Device (iPad)
+                ANDROID_TABLET: false, //Android Tablet
+                WINDOWS_TABLET: false, //Windows Tablet
+                TABLET: false, //Tablet (iPad, Android, Windows)
+                SMART_PHONE: false //Smart Phone (iPhone, Android)
+            };
+
+            mua.ANDROID_TABLET = mua.ANDROID && !mua.MOBILE;
+            mua.WINDOWS_TABLET = mua.WINDOWS && /tablet/.test(ua);
+            mua.TABLET = mua.IPAD || mua.ANDROID_TABLET || mua.WINDOWS_TABLET;
+            mua.SMART_PHONE = mua.MOBILE && !mua.TABLET;
+
+            return mua;
+        }());
+
+        //SmartPhone
+        if (MobileUA.SMART_PHONE) {
+            $(".typo").css("padding","1rem");
+        }
+    });
+</script>
 
 
 
