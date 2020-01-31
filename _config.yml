@@ -99,3 +99,4 @@ theme: miccall
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
+  repo: 'https://github.com/li-jun-bo/dream-2020.git'
