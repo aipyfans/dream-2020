@@ -1,5 +1,5 @@
 ---
-title: 摄影
+title: 写给未来上大学的你
 date: 2020-9-5 14:58:05
 categories: 生活
 thumbnail: https://cdn.pixabay.com/photo/2017/03/27/13/03/book-2178586_1280.jpg
