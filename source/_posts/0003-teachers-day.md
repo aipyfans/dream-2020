@@ -2,7 +2,7 @@
 title: 2020年的教师节
 date: 2020-9-10 10:09:10
 categories: 生活
-thumbnail: https://cdn.pixabay.com/photo/2018/10/22/18/02/teacher-3765909_1280.jpg
+thumbnail: https://static01.imgkr.com/temp/81fd5e8ec4e7432daabc6526de50462c.jpg
 ---
 
 ![教师节鲜花](https://cdn.pixabay.com/photo/2020/03/10/15/15/flowers-4919270_1280.jpg)
