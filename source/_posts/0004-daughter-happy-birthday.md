@@ -25,3 +25,4 @@ thumbnail: https://static01.imgkr.com/temp/3cb791c33023470c90ff7bbd91ae2b35.jpeg
 
 <img src="https://static01.imgkr.com/temp/c2766bcba0774491a28373d418ac85d4.jpeg" alt="闺女梓蹊生日" style="zoom:50%;" />
 
+来自生活和工作一地鸡毛的小李童鞋。
